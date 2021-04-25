@@ -43,7 +43,7 @@ class _StartPageState extends State<StartPage> {
           children: [
             const SizedBox(height: 20.0),
             ElevatedButton(
-              child: Text('Basics'),
+              child: Text('Basic Simple'),
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(builder: (_) => TableBasicsExample()),
@@ -75,7 +75,7 @@ class _StartPageState extends State<StartPage> {
             ),
             const SizedBox(height: 12.0),
             ElevatedButton(
-              child: Text('Complex'),
+              child: Text('Complex all'),
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(builder: (_) => TableComplexExample()),
