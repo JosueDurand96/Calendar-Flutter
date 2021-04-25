@@ -1,7 +1,5 @@
-
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
-
 import 'pages/basics_example.dart';
 import 'pages/complex_example.dart';
 import 'pages/events_example.dart';
@@ -16,9 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TableCalendar Example',
+      title: 'Calendar',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: StartPage(),
     );
@@ -35,7 +33,9 @@ class _StartPageState extends State<StartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('TableCalendar Example'),
+        title: Center(
+          child: Text('Calendar'),
+        ),
       ),
       body: Center(
         child: Column(
