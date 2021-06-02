@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calendar',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
       home: StartPage(),
     );
