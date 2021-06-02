@@ -1,4 +1,6 @@
 
 Calendar Flutter
-
-! [] (calendar-flutter.gif)
+<p align="justify">
+  Lorem ipsum
+</p>
+![](calendar-flutter.gif)
